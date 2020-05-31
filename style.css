@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.col-md-3 {
+    width: 25%;
+}
+
+.col-md-6 {
+    width: 50%;
+}
+
+.col-md-12 {
+    width: 100%;
+}
+
+.header {
+    background-color: #1d2126;
+    padding: 25px 0;
+}
+
+.logo {
+    background: url("images/logo.png") no-repeat;
+    width: 100px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu li {
+    text-align: center;
+    width: 14.2%;
+}
+
+.menu a {
+    color: #9ba5a4;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400px;
+    font-size: 17px;
+    height: 36px;
+    line-height: 36px;
+}
+
+.menu li:first-child {
+    border: 2px solid #39a493;
+    border-radius: 5px;
+}
+
+li>.firstchild {
+    color: #39a493;
+}
+
+li>.firstchild:hover {
+    border-color: #5b6168;
+}
+
+li:hover a.firstchild {
+    color: #9ba5a4;
+}
+
+.menu li:hover {
+    border: 2px solid #5b6168;
+    border-radius: 5px;
+}
+
+/*  SEARCH SECTION */
+
+.search-part {
+    width: 195px;
+    height: 30px;
+    border: 2px solid #5b6168;
+    border-radius: 5px;
+    margin-left: 82px;
+}
+
+input[type="text"] {
+    border: none;
+    outline: none;
+    background: none;
+    padding-left: 8px;
+    font-size: 17px;
+    font-weight: 300px;
+    width: 146px;
+    color: #9ba5a4;
+    height: 25px;
+    line-height: 25px;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+    color: #9ba5a4;
+}
+
+.search_button {
+    border: none;
+    outline: none;
+    background: url("images/icon1.png") no-repeat;
+    background-position: center center;
+    height: 15px;
+    width: 15px;
+}
+
+/* SLIDER */
+
+.slider {
+    background: url("images/img22.png") no-repeat;
+    display: flex;
+    flex-flow: row wrap;
+    height: 660px;
+}
+
+.slider_capt {
+    color: white;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 700;
+    padding-top: 170px;
+}
+
+.text_slider {
+    color: #a8abb5;
+    padding-top: 33px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.button_section {
+    padding-top: 45px;
+}
+
+.view_more_button, .videotour_button {
+    width: 123px;
+    height: 44px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    outline: none;
+    background: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.videotour_button {
+    margin-left: 11px;
+}
+
+.view_more_button:hover, .videotour_button:hover {
+    border-color: #39a493;
+    background-color: #39a493;
+}

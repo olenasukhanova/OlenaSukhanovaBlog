@@ -1,202 +1,508 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog project</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
-   
+    <link rel="stylesheet" href="grid.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap"
+        rel="stylesheet">
+
 </head>
+
 <body>
-     <header class = "header">
-   <div class="container">
-       <div class="row header-row">
-       <div class="col logo">
-           <a href="">
-               <img src="images/logo.png" alt="Logo">
-           </a>
+    <header class="header">
+        <div class="container">
+            <div class="row header-row">
+                <div class="col logo col-xs-12 col-md-3 col-sm-3">
+                    <a href="">
+                        <img src="images/logo.png" alt="Logo">
+                    </a>
+                </div>
+                <div class="col menu col-xs-12 col-md-6 col-sm-6">
+                    <nav>
+                        <ul class="nav-menu">
+                            <li><a href="" class="active">Home</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Work</a></li>
+                            <li><a href="">Team</a></li>
+                            <li><a href="">Services</a></li>
+                            <li><a href="">Features</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col search col-xs-12 col-md-3 col-sm-3">
+                    <div class="search-part">
+                        <input type="text" name="search" class="search" placeholder="search">
+                        <button class="search_button"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="slider" >
+        <div class="container">
+            <div class="row">
+                <div class="col col-xs-12 col-md-12 col-sm-12 col-lg-12">
+                    <div>
+                        <h1 class="slider_capt">WELCOME TO OUR MARKETPLACE</h1>
+                        <p class="text_slider">Lorem ipsum dolor sit amet, consecterur adipiscing elit. Sed nisi metus,
+                            tristique ndolor <br>
+                            non, ornare sagittis dolor. Nulla vestibulu lacus ...</p>
+                        <div class="button_section">
+                            <button class="view_more_button">view more</button>
+                            <button class="videotour_button">video tour</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="techsection" id="about">
+        <div class="container">
+            <div class="row modest_block">
+             
+                    <div class="col col-xs-12 col-md-12 col-sm-12 col-lg-12">
+                        <p class="title"> WE ARE MODEST. </p>
+                    </div>
+                    <div class="techclass">
+                        <div class="col col-xs-12 col-md-7 col-sm-7 col-lg-7">
+
+                            <p class="text_desc1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi
+                                metus, tristique ndolor non, ornane sagittis dolor. Nulla vestibulu lacus sed molestie
+                                gravida. Crferm entum quismagna congue, vel sodales arcu vestibulum. Nunc lobortis dui
+                                magna, quis lacusullamcorper at.</p>
+                            <p class="text_desc2"> Phasellus sollicitudin ante eros ornare, sit amet luctus lorem
+                                semper. Suspendisse posuere, quamdictum consecterur, augue metus pharetra tellus, eu
+                                feugiatloreg egetnisi. Cras ornare bibendum ante, ut bibendum odio convallis eget. vel
+                                sodales arcu vestibulum.</p>
+                        </div>
+
+
+                        <div class="col col-xs-12 col-md-5 col-sm-5 col-lg-5">
+                            <div class="second_techclass_desc">
+                                <div id="number_blocks">
+                                    <div>
+                                        <div class="numbers_section">
+                                            <div class="rect">
+                                                <p>01</p>
+                                            </div>
+                                            <div class="number_block">
+                                                <p class="numberTitle">DEDICATION TO THE CUSTOMER</p>
+                                                <p class="textInformation">Integer vel lacus non ullamcorper venenatis.
+                                                    Aliquam vitae tristique nisi, vitae ulamcorper risus. Nam portitor
+                                                    blandit.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="numbers_list">
+                                        <div class="numbers_section">
+                                            <div class="rect">
+                                                <p>02</p>
+                                            </div>
+                                            <div class="number_block">
+                                                <p class="numberTitle">WORKING CLOSELY WITH OUR CLIENTS</p>
+                                                <p class="textInformation">Sed blandit nisi urna, sed pellentesque enim
+                                                    consecterur vitae. Suspendisse ut vehicula nibh.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="numbers_list">
+                                        <div class="numbers_section">
+                                            <div class="rect">
+                                                <p>03</p>
+                                            </div>
+                                            <div class="number_block">
+                                                <p class="numberTitle">INCREASE HAPPINESS</p>
+                                                <p class="textInformation">Lorem ipsum dolor sit amet, consecterur
+                                                    adipiscing elit. Nulla eleifend laoreet euismod.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-xs-12 col-md-12 col-sm-12 col-lg-12">
+                           
+                                <div class="social_icons">
+                                    <div class="button"><a href="#"></a></div>
+                                    <div class="button2"><a href="#"></a></div>
+                                    <div class="button3"> <a href="#"></a></div>
+                                    <div class="button4"><a href="#"> </a></div>
+                                    <div class="button5"><a href="#"> </a></div>
+                                </div>
+                          
+                     
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="line_divider"> </div>
+    <section class="teamsection" id="team">
+        <div class="container">
+        <div class="row team_block">
+            <div class=" col title_name col-xs-12 col-md-12 col-sm-12 col-lg-12">
+                    <p class="title"> Meet the team. </p>
+            </div>
+                <div class=" col team_photo col-xs-12 col-md-6 col-sm-6 col-lg-3"> 
+                        <div class="photo_block">
+                            <div class="overlay_in_photo">
+                                <img src="images/img6.png" alt="" class="second_team_photo">
+                                <p class="workerName">GLORIA BROMLEY</p>
+                                <p class="position">CEO and Founder</p>
+                                <div class="bg">
+                                    <div class="butt_in_block">
+                                        <div class="butt-row">
+                                            <a href="" class="butt5-twitter"></a>
+                                            <a href="" class="butt6-facebook"></a>
+                                            <a href="" class="butt7-in"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col team_photo col-xs-12 col-md-6 col-sm-6 col-lg-3"> 
+                        <div class="photo_block">
+                            <div class="overlay_in_photo">
+                                <img src="images/img5.png" alt="" class="second_team_photo">
+                                <p class = "workerName">PAUL TORRES</p>
+                                <p class = "position">Head of Development</p>
+                                <div class="bg">
+                                    <div class="butt_in_block">
+                                        <div class="butt-row">
+                                            <a href="" class="butt5-twitter"></a>
+                                            <a href="" class="butt6-facebook"></a>
+                                            <a href="" class="butt7-in"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col team_photo col-xs-12 col-md-6 col-sm-6 col-lg-3"> 
+                        <div class="photo_block">
+                            <div class="overlay_in_photo">
+                                <img src="images/img4.png" alt="" class="second_team_photo">
+                                <p class = "workerName">JUDITH GILLETTE</p>
+                                <p class = "position">Graphic Designer</p>
+                                <div class="bg">
+                                    <div class="butt_in_block">
+                                        <div class="butt-row">
+                                            <a href="" class="butt5-twitter"></a>
+                                            <a href="" class="butt6-facebook"></a>
+                                            <a href="" class="butt7-in"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col team_photo col-xs-12 col-md-6 col-sm-6 col-lg-3"> 
+                        <div class="photo_block">
+                            <div class="overlay_in_photo">
+                                <img src="images/img3.png" alt="" class="last_team_photo">
+                                <p class="workerName">DELORES REED</p>
+                                <p class="position">Client Service Director</p>
+                                <div class="bg">
+                                    <div class="butt_in_block">
+                                        <div class="butt-row">
+                                            <a href="" class="butt5-twitter"></a>
+                                            <a href="" class="butt6-facebook"></a>
+                                            <a href="" class="butt7-in"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+
+    <!--  SERVICE BLOCK  -->
+    <section class="servicesection" id="work">
+        <div class="container">
+            <div class="row service_block">
+                    <div class=" col title_name col-xs-12 col-md-12 col-sm-12 col-lg-12">
+                        <p class="title-service"> Lovely work. </p>
+                    </div>
+                        <div class=" col service_block_photo  col-xs-12 col-md-6 col-sm-6 col-lg-4">
+                            <div class="overlay_in_photo_service  photo_service1">
+                                <img src="images/img12.png" class="img_service">
+                                <div class="bg_service">
+                                    <div class="butt_in_block_service">
+                                        <div class="butt-row_service">
+                                            <div class="imagePlus"> </div>
+                                        </div>
+                                        <div class="servise_desc">
+                                            <p class="lovelyWorkText">PARTNERSHIP GUIDLINES</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class=" col service_block_photo  col-xs-12 col-md-6 col-sm-6 col-lg-4">
+                            <div class="overlay_in_photo_service photo_service1">
+                                <img src="images/img11.png" class="img_service">
+                                <div class="bg_service">
+                                    <div class="butt_in_block_service">
+                                        <div class="butt-row_service">
+                                            <div class="imagePlus"> </div>
+                                        </div>
+                                        <div class="servise_desc">
+                                            <p class="lovelyWorkText">PARTNERSHIP GUIDLINES</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col service_block_photo  col-xs-12 col-md-6 col-sm-6 col-lg-4">
+                            <div class="overlay_in_photo_service photo_service1" >
+                                <img src="images/img10.png" class="img_service">
+                                <div class="bg_service">
+                                    <div class="butt_in_block_service">
+                                        <div class="butt-row_service">
+                                            <div class="imagePlus"> </div>
+                                        </div>
+                                        <div class="servise_desc">
+                                            <p class="lovelyWorkText">PARTNERSHIP GUIDLINES</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                  
+                        <div class="col service_block_photo  col-xs-12 col-md-6 col-sm-6 col-lg-4">
+                            <div class="overlay_in_photo_service photo_service">
+                                <img src="images/img9.png" class="img_service">
+                                <div class="bg_service">
+                                    <div class="butt_in_block_service">
+                                        <div class="butt-row_service">
+                                            <div class="imagePlus"> </div>
+                                        </div>
+                                        <div class="servise_desc">
+                                            <p class="lovelyWorkText">PARTNERSHIP GUIDLINES</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col service_block_photo  col-xs-12 col-md-6 col-sm-6 col-lg-4">
+                            <div class="overlay_in_photo_service photo_service">
+                                <img src="images/img8.png" class="img_service">
+                                <div class="bg_service">
+                                    <div class="butt_in_block_service">
+                                        <div class="butt-row_service">
+                                            <div class="imagePlus"> </div>
+                                        </div>
+                                        <div class="servise_desc">
+                                            <p class="lovelyWorkText">PARTNERSHIP GUIDLINES</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col service_block_photo  col-xs-12 col-md-6 col-sm-6 col-lg-4">
+                            <div class="overlay_in_photo_service  photo_service">
+                                <img src="images/img7.png" class="img_service">
+                                <div class="bg_service">
+                                    <div class="butt_in_block_service">
+                                        <div class="butt-row_service">
+                                            <div class="imagePlus"> </div>
+                                        </div>
+                                        <div class="servise_desc">
+                                            <p class="lovelyWorkText">PARTNERSHIP GUIDLINES</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class = "showMe">
+                            <button class = "showMeMoreButton">SHOW ME MORE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- </div> -->
+    </section>
+
+    <!--  без  зміни на колонки -->
+    <section class = "section3" id ="services">
+		<div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="col-xs-12 col-md-12 col-sm-12 col-lg-12">
+                        <p class="title"> What we do. </p>
+                    </div>
+      
+		 <div class="item-container">
+            <div class=" col col-xs-12 col-md-3 col-sm-3 col-lg-3">
+	    <div class="flex-item1"> <a href="" class="itembuttom"> <p class="itemdescription"> Easy theme setup</p>
+	       <p class="itemtext"> Nunc mattis lorem  in leo lobortis, ut venenatis justo commodo. Maecenas justo nec velit egestas fermentum.</p>
+	    </a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-3 col-sm-3 col-lg-3">
+	    <div class="flex-item2"> <a href="" class="itembuttom"> <p class="itemdescription">Pixel perfect design</p>
+		     <p class="itemtext"> Nunc mattis lorem  in leo lobortis, ut venenatis justo commodo. Maecenas justo nec velit egestas fermentum.</p>
+	    </a>
+       </div>
     </div>
-    <div class="col menu">
-    <nav>
-       <ul class="nav-menu">
-           <li><a href="" class="active">Home</a></li>
-           <li><a href="">About</a></li>
-           <li><a href="">Work</a></li>
-           <li><a href="">Team</a></li>
-           <li><a href="">Services</a></li>
-           <li><a href="">Features</a></li>
-           <li><a href="">Contact</a></li>
-       </ul>
-    </nav>
-</div>
-     <div class="col">
-         <div class="search-part">
-             <input type="text" name="search" class = "search" placeholder="search">
-             <button class = "search_button"></button>
-         </div>
+       <div class="col-xs-12 col-md-3 col-sm-3 col-lg-3">
+	  <div class="flex-item3"> <a href="" class="itembuttom"> <p class="itemdescription">Responsive display</p>
+		    <p class="itemtext"> Nunc mattis lorem  in leo lobortis, ut venenatis justo commodo. Maecenas justo nec velit egestas fermentum.</p>
+	 </a>
      </div>
     </div>
-</div>
-</header>  
-    <section class="slider">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-             <div>
-                 <h1 class="slider_capt">WELCOME TO OUR MARKETPLACE</h1>
-                 <p class="text_slider">Lorem ipsum dolor sit amet, consecterur adipiscing elit. Sed nisi metus, tristique ndolor <br>
-                    non, ornare sagittis dolor. Nulla vestibulu lacus ...</p>
-                 <div class="button_section">
-                     <button class ="view_more_button">view more</button>
-                     <button class ="videotour_button">video tour</button>
-                </div>
-             </div>
+     <div class="col-xs-12 col-md-3 col-sm-3 col-lg-3">
+	  <div class="flex-item4"> <a href="" class="itembuttom"> <p class="itemdescription">24/7 Support</p>
+	      <p class="itemtext"> Nunc mattis lorem  in leo lobortis, ut venenatis justo commodo. Maecenas justo nec velit egestas fermentum.</p>
+	  </a>
         </div>
     </div>
+    <div class="col-xs-12 col-md-3 col-sm-3 col-lg-3">
+	  <div class="flex-item5"> <a href="" class="itembuttom"> <p class="itemdescription">Ease Theme setup</p>
+	      <p class="itemtext"> Nunc mattis lorem  in leo lobortis, ut venenatis justo commodo. Maecenas justo nec velit egestas fermentum.</p>
+	  </a>
+        </div>
     </div>
-    </section> 
-    <section class = "techsection"> 
+        <div class="col-xs-12 col-md-3 col-sm-3 col-lg-3">
+	  <div class="flex-item6"> <a href=""class="itembuttom"><p class="itemdescription">Pixel perfect design</p>
+	      <p class="itemtext"> Nunc mattis lorem  in leo lobortis, ut venenatis justo commodo. Maecenas justo nec velit egestas fermentum.</p>
+	   </a>
+        </div>
+    </div>
+    <div class="col-xs-12 col-md-3 col-sm-3 col-lg-3">
+		<div class="flex-item7"> <a href=""class="itembuttom"><p class="itemdescription">Responsive display</p>
+	     <p class="itemtext"> Nunc mattis lorem  in leo lobortis, ut venenatis justo commodo. Maecenas justo nec velit egestas fermentum.</p>
+	   </a>
+        </div>
+    </div>
+        <div class="col-xs-12 col-md-3 col-sm-3 col-lg-3">
+		<div class="flex-item8"> <a href="" class="itembuttom"><p class="itemdescription">24/7 Support</p>
+	    <p class="itemtext"> Nunc mattis lorem  in leo lobortis, ut venenatis justo commodo. Maecenas justo nec velit egestas fermentum.</p>
+	   </a>
+        </div>
+    </div>
+	</div>
+
+	</div>
+  </div>
+</div>
+	</section>
+
+	<section class = "section4" id="features">
         <div class="container">
-            <div class="row">
-                <div class="col">
-            <h1 class = "title"> WE ARE MODEST. </h1> 
-         <ul class ="techclass">
-             <li class ="first_techclass_desc">
-            <ul class = "text">
-               <li> <p class = "text_desc1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor non, ornane sagittis dolor. Nulla vestibulu lacus sed molestie gravida. Crferm entum quismagna congue, vel sodales arcu vestibulum. Nunc lobortis dui magna, quis lacusullamcorper at.</p>
-            </p> </li>
-        <li>  <p class = "text_desc2"> Phasellus sollicitudin ante eros ornare, sit amet luctus lorem semper. Suspendisse posuere, quamdictum consecterur, augue metus pharetra tellus, eu feugiatloreg egetnisi. Cras ornare bibendum ante, ut bibendum odio convallis eget. vel sodales arcu vestibulum.</p>
-            </p></li>
-            <li class= "social_block">
-                <div class="social_icons">
-                    <div class= "button"><a href="#"></a></div>
-                    <div class= "button2"><a href="#"></a></div>
-                    <div class= "button3"> <a href="#"></a></div>
-                    <div class= "button4"><a href="#"> </a></div>
-                    <div class= "button5"><a href="#"> </a></div>
+            <div class="row features-container">
+                    <div class="col col-xs-12 col-md-12 col-sm-12 col-lg-12">
+                        <p class="title-service"> Features </p>
                     </div>
-            </li>
-            </ul>
-        </li>
-        <li class = "second_techclass_desc">
-               <ul id ="number_blocks">
-                   <li> 
-                    <div class= "numbers_section">
-                       <div class="rect">
-                        <p>01</p>
-                   </div>
-                   <div  class ="number_block"> 
-                    <p class = "numberTitle">DEDICATION TO THE CUSTOMER</p>
-                    <p class = "textInformation">Integer vel lacus non ullamcorper venenatis. Aliquam vitae tristique nisi, vitae ulamcorper risus. Nam portitor blandit.</p>
-                </div>      
-                </div>      
-                </li>
-                <li class= "numbers_list"> 
-                    <div class= "numbers_section">
-                       <div class="rect">
-                        <p>02</p>
-                   </div>
-                   <div  class ="number_block"> 
-                    <p class = "numberTitle">WORKING CLOSELY WITH OUR CLIENTS</p>
-                    <p class = "textInformation">Sed blandit nisi urna, sed pellentesque enim consecterur vitae. Suspendisse ut vehicula nibh.</p>
-                </div>      
-                </div>      
-                </li>
-                <li class= "numbers_list"> 
-                    <div class= "numbers_section">
-                       <div class="rect">
-                        <p>03</p>
-                   </div>
-                   <div  class ="number_block"> 
-                    <p class = "numberTitle">INCREASE HAPPINESS</p>
-                    <p class = "textInformation">Lorem ipsum dolor sit amet, consecterur adipiscing elit. Nulla eleifend laoreet euismod.</p>
-                </div>      
+                    <div class="col features-section col-xs-12 col-md-4 col-sm-6 col-lg-4">
+                    
+								   <a href="">
+										 <img src="images/img (15).png" alt="hay and tractor" class="features_photo">
+                            
+		                	<p class="feature-description">Products design:Eames chairs</p>
+		                 	<p class="featurestext"> Eames designs are certenly iconic.
+									Everyone of us know at least two or three of their famous
+		                           chairs. I would even risk saying that most of us dream about having a nice Eames. </p>
+                               
+                                </a>
+                            
+                    </div>
+                    <div class="col features-section col-xs-12 col-md-4 col-sm-6 col-lg-4">
+                
+									   <a href="">
+                                            <img src="images/img (14).png" alt="door and bicycle" class="features_photo">
+                                            
+											<p class="feature-description">Elegant and colorful logos</p>
+											    <p class="featurestext"> I'll always found  logo desing to be one of
+															 the most challegning things to get right. There's
+                                                             so much thata logo can say about a brand without actually saying it.</p>
+                                                    
+                                                            </a>
+                                                                                             
+                    </div>
+                      <div class="col features-section col-xs-12 col-md-4 col-sm-6 col-lg-4">
+                        
+									<a href="">
+                                        <img src="images/img (13).png" alt="river and mountains" class="features_photo">
+                       
+		                <p class="feature-description"> A showcase of creative</p>
+			                <p class="featurestext"> It's always interesting to see another designer's take on
+												       a famous website, app or even a
+                                     physical product. Different designers add their own personality and style.</p>
+                                    
+                                    </a>
+                                        
                 </div>
-                </li>
-               </ul>
-            </li>
-        </ul>
-    </div>
-    </div>
-    </div>
-    </section>
-    <div class = "line_divider"> </div>
-    <section class = "teamsection"> 
+            </div>
+        </div>
+	</section>
+	<section class = "section5" id="contact">
         <div class="container">
             <div class="row">
-                <div class="col">
-                   <h1 class = "title"> meet the team. </h1> 
-                 <ul class= "team_photo">
-                    <li class= "photo_block"> 
-                    <div class="overlay_in_photo">
-                        <img src="images/img6.png" alt="" class ="second_team_photo">
-                        <p class = "workerName">GLORIA BROMLEY</p>
-                        <p class = "position">CEO and Founder</p> 
-                         <div class="bg">
-                             <div class="butt_in_block">
-                                      <div class="butt-row">
-                                            <a href="" class="butt5-twitter"></a>
-                                                 <a href="" class="butt6-facebook"></a>
-                                                     <a href="" class="butt7-in"></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                 </div>
-                     </li>
-                     <li class= "photo_block"> 
-                         <div class="overlay_in_photo">
-                        <img src="images/img5.png" alt="" class= "second_team_photo">
-                        <p class = "workerName">GLORIA BROMLEY</p>
-                        <p class = "position">CEO and Founder</p> 
-                         <div class="bg">
-                             <div class="butt_in_block">
-                                      <div class="butt-row">
-                                            <a href="" class="butt5-twitter"></a>
-                                                 <a href="" class="butt6-facebook"></a>
-                                                     <a href="" class="butt7-in"></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                 </div>
-                    </li>
-                     <li class= "photo_block">  
-                         <div class="overlay_in_photo">
-                        <img src="images/img4.png" alt="" class= "second_team_photo">
-                        <p class = "workerName">PAUL TORRES</p>
-                        <p class = "position">CEO and Founder</p> 
-                         <div class="bg">
-                             <div class="butt_in_block">
-                                      <div class="butt-row">
-                                            <a href="" class="butt5-twitter"></a>
-                                                 <a href="" class="butt6-facebook"></a>
-                                                     <a href="" class="butt7-in"></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                 </div>
-                         </li>
-                     <li class= "photo_block"> 
-                          <div class="overlay_in_photo">
-                        <img src="images/img3.png" alt="" class="last_team_photo">
-                        <p class = "workerName">GLORIA BROMLEY</p>
-                        <p class = "position">CEO and Founder</p> 
-                         <div class="bg">
-                             <div class="butt_in_block">
-                                      <div class="butt-row">
-                                            <a href="" class="butt5-twitter"></a>
-                                                 <a href="" class="butt6-facebook"></a>
-                                                     <a href="" class="butt7-in"></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                 </div>
-                         </li>
-                 </ul>
-        </div>  
-    </div>
-    </div>     
-    </section>   
+                    <div class="col  col-xs-12 col-md-12 col-sm-12 col-lg-12">
+                        <p class="title"> STAY IN TOUCH. </p>
+                    </div>
+            </div>
+        </div>
+			 	</section>
+		<div class="map"> </div>
+           <section class = "section6">
+            <div class="container">
+                <div class="row feedback_section">
+                    <div class=" col col-xs-12 col-md-6 col-sm-6 col-lg-6">
+				   	 <div class="contact-text"> 
+                            <p class="contact-header"> Contact information </p>
+						    <p> Lorem ipsum dolor sit amet consectetur apidicising
+										 tempor incididant dolore magna aliqua ut enim ed minim veniam quis nostrud tempor incididant dolore magna aliqua ut enim ed minim veniam quis nostrud.</p>
+						<br>
+					      <p> Lorem ipsum dolor sit amet consectetur apidicising
+								tempor incididant <span class="wordselection"> dolore magna</span> aliqua ut enim ed minim veniam quis nostrud.</p>
+                 </div>
+                </div>
+                 <div class="col feedbackform col-xs-12 col-md-6 col-sm-6 col-lg-6">
+                   <input type="Submit" value="Send message" id="submit">
+                    </div>
+		   </div>
+        </div>
+		</section>
+		     <section class="footer">
+                <div class="container">
+                    <div class="row header-row">
+                        <div class="col footerform col-xs-12 col-md-6 col-sm-6">
+                            <div   class= "copyright"> 
+                                <p class= "copyright"> &copy; 2014 by PSD Booster. All Rights Reserved. </p>
+                             </div>
+                        </div>
+                        <div class="col social_menu col-xs-12 col-md-6 col-sm-6">
+                            <ul class="social-icons">
+                                <li class= "twitter"><a href=""></a><li>
+                                <li class= "facebook"><a href=""></a><li>
+                                <li class= "skype">  <a href=""></a><li>
+                                <li class= "be-icon"><a href=""> </a><li>
+                                <li class= "in-icon"><a href=""> </a><li>
+                     </ul>
+                    </div>
+                    </div>
+                    </div>
+        </section>
 </body>
 </html>

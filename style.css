@@ -244,7 +244,6 @@ p.text_desc1, .text_desc2 {
 }
 
 .text_desc2 {
-    /* padding-top: 0px; */
     padding-bottom: 0px;
 }
 
@@ -261,7 +260,6 @@ p.text_desc1, .text_desc2 {
     background-image: url("images/icon6.png");
     background-position: center center;
     cursor: pointer;
-    /* margin-bottom: 30px; */
     animation: button, button2, button3, button4, button5 3s ease-in 1s infinite reverse;
 }
 
@@ -388,20 +386,21 @@ div.bg {
 
 div.butt_in_block {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.overlay_in_photo:hover, .overlay_in_photo:hover .position {
-    background-color: #3a454d;
-    color: white;
-    opacity: 1;
-}
 
 div.butt-row {
     display: flex;
     flex-flow: row nowrap;
-    margin: 0 auto;
-    padding-top: 140px;
+    /* margin: 0 auto; */
+    /* padding-top: 140px; */
+    position: relative;
+    
 }
 
 a.butt6-facebook, a.butt5-twitter, a.butt7-in {
@@ -416,7 +415,6 @@ a.butt6-facebook, a.butt5-twitter, a.butt7-in {
 }
 
 a.butt6-facebook:hover, a.butt5-twitter:hover, a.butt7-in:hover {
-    /* background-color: #23b7a4; */
     background-color: #4e5a62;
     opacity: 1;
 }
@@ -441,6 +439,12 @@ a.butt7-in {
     height: 50px;
     background-color: #3a454d;
     margin-left: 1px;
+}
+
+.overlay_in_photo:hover, .overlay_in_photo:hover .position {
+    background-color: #3a454d;
+    color: white;
+    opacity: 1;
 }
 
 .workerName {
@@ -477,20 +481,13 @@ a.butt7-in {
     height: 265px;
     position: relative;
     z-index: 11;
-    background-color: #e1e6ea;
+  
 }
 
 .img_service {
     width: 100%;
     height: 100%;
 }
-
-/* .photo_service {
-    margin-top: 30px;
- }
-.photo_service1 {
-    margin-top: 30px;
- } */
 
 div.bg_service {
     position: absolute;
@@ -585,6 +582,7 @@ div.butt-row {
     text-align: center;
 }
 
+
 /* WHAT TO DO SECTION */
 
 .partnership_section, .map_section, .contact_section {
@@ -602,13 +600,6 @@ div.butt-row {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-}
-
-.title_service {
-    padding-bottom: 86px;
-}
-
-.item-container {
     text-align: center;
     color: #62666c;
     font-weight: 700;
@@ -616,8 +607,12 @@ div.butt-row {
     animation: flex-item1, flex-item2, flex-item3, flex-item4, flex-item5, flex-item6, flex-item7, flex-item8 3s ease-in 1s infinite reverse;
 }
 
-.item-container a, .features-container a {
-    text-decoration: none;
+.title_service {
+    padding-bottom: 86px;
+}
+
+
+.item-container , .features-container {
     color: #62666c;
 }
 
@@ -669,7 +664,6 @@ div.butt-row {
 
 .features-section {
     padding-top: 64px;
-    /* text-align: center; */
     color: white;
     font-weight: 700;
     font-size: 18px;
@@ -848,6 +842,7 @@ div.butt-row {
         justify-content: space-between;
         padding-top: 85px;
         padding-bottom: 100px;
+        z-index: 11;
     }
     .tech_block {
         display: flex;
@@ -879,12 +874,18 @@ div.butt-row {
     .button2, .button3, .button4, .button5 {
         margin-left: 2px;
     }
+
     .team_photo {
         display: flex;
         flex-flow: row wrap;
         align-items: center;
         justify-content: space-between;
     }
+
+    /* div.butt-row {
+        padding-top: 180px;
+        
+    } */
     .overlay_in_photo {
         height: 440px;
     }
@@ -894,6 +895,7 @@ div.butt-row {
         justify-content: space-between;
         cursor: pointer;
     }
+
     div.photo_desc {
         display: flex;
         width: 300px;
@@ -933,8 +935,13 @@ div.butt-row {
         flex-flow: row wrap;
         justify-content: space-between;
     }
+
+    /* div.butt-row {
+        padding-top: 112px;
+        
+    } */
     .overlay_in_photo {
-        height: 335px;
+        height: 300px;
     }
     .service_block {
         display: flex;
@@ -959,6 +966,11 @@ div.butt-row {
     .overlay_in_photo {
         height: 375px;
     }
+
+    /* div.butt-row {
+        padding-top: 135px;
+        
+    } */
 }
 
 /* mobile */

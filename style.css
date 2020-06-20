@@ -288,6 +288,9 @@ p.text_desc1, .text_desc2 {
     transform: translate(10px,0); */
     transform: rotate(10deg);
 }
+.button:active, .button2:active, .button3:active, .button4:active, .button5:active  {
+    background-color: red;;
+}
 
 .second_techclass_desc {
     margin-top: 40px;
@@ -774,7 +777,12 @@ div.butt-row {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
+.social-icons li:hover  {
+    width:30px;
+    height:30px;
+    /* border-radius: 15px; */
+    background-color: rgba(35, 183, 164, 0.4);
+}
 .twitter, .facebook, .skype, .be-icon, .in-icon {
     background: url("images/icon9.png") no-repeat;
     background-position: center center;

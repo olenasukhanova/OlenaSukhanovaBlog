@@ -13,6 +13,25 @@ console.log(popup);
 
 
 
+// slider
+
+// $(function() {
+//   $(".rslides").responsiveSlides({
+//     auto: true,
+//     speed: 3000,
+//     navContainer: "", 
+//     nav: true,
+//     speed: 500,
+//     namespace: "centered-btns"
+//   }
+
+//   );
+// });
+
+
+// modal window
+
+
 // modal window
 let modalWindow = document.querySelector(".modal-window");
 console.log(modalWindow);
@@ -48,22 +67,4 @@ closeBtn.addEventListener("click",closeModal)
 AOS.init({
   easing: 'ease-in-out-sine',
   duration: 600,
-});
-
-
-// slider
-
-$(function() {
-  $(".rslides").responsiveSlides({
-    auto: true,
-    speed: 3000,
-    navContainer: "", 
-    nav: true,
-    speed: 500,
-    // maxwidth: 800,
-    // namespace: "transparent-btns"
-    namespace: "centered-btns"
-  }
-
-  );
 });
